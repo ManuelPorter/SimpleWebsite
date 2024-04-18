@@ -1,0 +1,39 @@
+body {
+  background-color: rgb(183, 183, 130);
+  text-align: center;
+}
+
+.title {
+  text-align: center;
+  margin-top: 50px;
+  font-size: 90px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.buttons {
+  background-color: rgb(63, 63, 60);
+  padding: 10px;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 10px;
+  border-radius: 10px;
+  justify-content: center;
+  text-align: center;
+  width: 230px;
+  margin: 0 auto;
+  height: 280px;
+  margin-top: 20px;
+}
+.btn{
+  width: 40px;
+  font-size: large;
+}
+
+.display{
+  background-color: #cac6c6;
+  border: 3px solid #6e6c6c;
+  padding: 8px;
+  font-size: large;
+  text-align: right;
+  width: 150px;
+  margin: 0 auto;
+}
